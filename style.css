@@ -1,0 +1,605 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Dancing+Script:wght@600&family=Nunito:wght@700&family=Piazzolla:wght@200;300;400;900&family=Plus+Jakarta+Sans:ital,wght@0,400;1,300&family=Poppins&family=Rubik&family=Urbanist&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.header-section,.header3-section{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),url(images/backimg1.jpeg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.header2-section{
+    height: 180vh; 
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),url(images/backimg1.jpeg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.section{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgb(76, 68, 68); */
+    padding: 0 4vw;
+
+}
+
+.section h2{  
+    color: white;
+    font-size: 1.5vw;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.nav-section ul{
+ list-style: none;
+ display: flex;
+ gap: 4vw;
+}
+
+.nav-section a{
+    color: white;
+    font-size: 1.5vw;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+/* main section */
+
+main{
+    width: 100%;
+    height: calc(100% - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.main-section .container{
+    height: inherit;
+}
+
+.main-content{
+    color: #fff;
+    text-align: center;
+}
+
+h1{
+    font-size: 5vw;
+    font-weight: 700;
+   text-transform: capitalize;
+}
+
+h3{
+    font-size: 3vw;
+    font-weight: 500;
+   text-transform: capitalize;
+   margin-top: 1vw;
+}
+
+p{
+    font-size: 2vw;
+    font-weight: 400;
+   text-transform: capitalize;
+   margin-top: 1vw;
+}
+
+button{
+    border-style: none;
+    border: 0.1px solid #fff;
+    border-radius: 0.5vw;
+    padding: 1vw 1vw;
+    margin-top: 4vw;
+    background-color: rgb(36, 224, 146);
+    cursor: pointer;
+}
+
+button a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5vw;
+    font-weight: 500;
+
+    
+}
+
+button a:hover{
+    color: orangered;
+    font-size: 1.6vw;
+}
+
+/* menu page styling */
+
+h1{
+    font-size: 4vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    font-style: 500;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.select-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: black
+}
+
+.box{
+    height: 60vh;
+    width: 25%;
+    background-color: white;
+    padding: 2vw 0vw 1.5vw;
+    margin: 1.5vw;
+}
+
+.box1-img{
+    background-image: url(images/pic1.jpg);
+    height: 40vh;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    background-size: cover;
+}
+
+.box2-img{
+    background-image: url(images/picc2.jpeg);
+    height: 40vh;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    background-size: cover;
+}
+
+.box3-img{
+    background-image: url(images/pic3.jpg);
+    height: 40vh;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    background-size: cover;
+}
+
+.box4-img{
+    background-image: url(images/pic4.jpg);
+    height: 40vh;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    background-size: cover;
+}
+
+.box5-img{
+    background-image: url(images/picc5.jpg);
+    height: 40vh;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    background-size: cover;
+}
+
+.box6-img{
+    background-image: url(images/pic6.jpeg);
+    height: 40vh;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    background-size: cover;
+}
+
+.box-content{
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.box-content p{
+    color: #007185;
+    font-size: 1.5vw;
+}
+
+.box-content h2{
+    color: black;
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+/* contact page styling */
+
+
+h3{
+    font-size: 2.5vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    font-weight: 500;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-ser
+}
+
+h4{
+    font-size: 2.5vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    font-weight: 500;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-ser
+}
+
+.contact-section button{
+    margin-left: 15vw;
+}
+
+/* about page */
+
+
+.about-page{
+    width: 100%;
+    height: calc(100% - 100px);
+    display: flex;
+    position: relative;
+}
+
+.left{
+    height: 100%;
+    width: 55%;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-ser;
+    font-size: 2.5vw; 
+    padding: 5vw 4vw;
+}
+
+.left h1{
+    font-size: 4vw;
+    line-height: 4.2vw;
+}
+
+
+
+.about-page p{
+    font-size: 2vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-ser;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-left: 7vw;
+}
+
+.right{
+    height: 100%;
+    width: 45%;
+}
+
+.right img{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+        animation: aagepiche  2s linear infinite;
+        animation-direction: alternate;
+}
+
+
+
+@keyframes aagepiche{
+    from{
+        padding-left: 6vw;
+    }
+    to{
+        padding-right: 5vw;
+    }
+}
+
+.about-page button{
+    margin-left: 17vw;
+}
+
+/* for mobile display */
+
+.mobile-navbar-btn{
+    display: none;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+.mobile-nav-icon{
+    width: 3vw;
+    height: 3vh;
+    color: #fff;
+}
+
+.mobile-nav-icon[name="close-circle-outline"]{
+    display: none;
+}
+
+/* responsive code */
+
+@media (max-width:600px){
+    .section h2{
+    font-size: 4vw;
+    }
+
+    /* main page */
+ 
+
+    /* .main-content{
+        display: none;
+    } */
+
+    .main-content p{
+        font-size: 4vw;
+    }  
+
+    .main-content button{
+        padding: 2vw 4vw;
+    }
+    
+    .main-content button a{
+        font-size: 4vw;
+    font-weight: 500;
+    }
+
+    .main-content button a:hover{
+        font-size: 4.1vw;
+    font-weight: 500;
+    }
+
+    /* menu page */
+
+    h1{
+        font-size: 6vw;
+    }
+
+    .header2-section{
+        height: 320vh;
+    }
+
+   .box{
+    height: 47vh;
+    width: 65%;
+    background-color: white;
+    padding: 2vw;
+    margin: 1.5vw;
+}
+.box-content p{
+    font-size: 2vw;
+}
+.box-content h2{
+    font-size: 2vw;
+
+}
+/* contact page */
+
+.contact-section h1{
+    font-size: 8vw;
+}
+.contact-section button{
+    margin-left: 25vw;
+}
+.contact-section button a{
+    font-size: 4vw;
+   
+}
+h3{
+    font-size: 6vw;
+    margin-top: 4vw;
+    margin-bottom: 2vw;
+}
+h4{
+    font-size: 5vw;
+
+}
+/* about page */
+.left h1{
+    font-size: 7vw;
+    line-height: 4.2vw;
+}
+
+.about-page button a{
+    font-size: 3vw;
+    padding: 1vw;
+    display: flex;
+    align-items: center;
+}
+
+.about-page{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.left{
+    height: 100%;
+    width: 100%;
+}
+
+
+.about-page p{
+    font-size: 5vw;
+}
+
+.right{
+    height: 100%;
+    width: 100%;
+}
+
+.about-page button{
+    margin-left: 32vw;
+}
+
+
+}
+
+/* for mobile */
+
+@media(max-width: 980px){
+
+
+.mobile-navbar-btn{
+    display: block;
+    z-index: 999;
+    color: white;
+    
+}
+
+.mobile-nav-icon{ 
+    height: 10vh;
+    width: 10vw;
+}
+
+header{
+    position: relative;
+}
+
+
+.nav-section{
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    position: absolute;
+    left: 0;
+    background: rgb(224, 186, 186);
+    /* display: none; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    transform: translateX(100%);
+    transition: all 0.5s linear;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    z-index: 999;
+}
+
+.navbar-lists{
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.navbar-lists a{
+    font-size: 6.5vw;
+    color: black;
+}
+
+    .active .nav-section {
+        transform: translateX(0%);
+        opacity: 5;
+        visibility: visible;
+        pointer-events: auto;    
+     }
+
+    .active .mobile-navbar-btn .mobile-nav-icon[name="menu-outline"]{
+        display: none;
+    }
+
+    .active .mobile-navbar-btn .mobile-nav-icon[name="close-circle-outline"]{
+        display: block;
+        color: black;
+    }
+
+}
+
+@media(max-width:450px){
+
+    /* main page */
+
+    .section h2{
+        font-size: 6vw;
+        }
+    
+
+        .main-content h1{
+            font-size: 7vw;
+        }  
+
+        .main-content p{
+            font-size: 4vw;
+        }  
+
+        /* menu page */
+        h1{
+            font-size: 6.5vw;
+        }
+    
+       .box{
+        height: 47vh;
+        width: 80%;
+    }
+    .box-content p{
+        font-size: 2.5vw;
+    }
+    .box-content h2{
+        font-size: 4vw;
+    
+    }
+    
+/* about page */
+
+    .left h1{
+        font-size: 7vw;
+    }
+    
+    
+    .about-page button a{
+        font-size: 3vw;
+    }
+
+    .about-page button{
+        margin-left: 32vw;
+    }
+    .about-page{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    
+    .left{
+        height: 100%;
+        width: 100%;
+    }
+    
+    
+    .about-page p{
+        font-size: 5vw;
+    }
+    
+    .right{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .about-page button{
+        margin-left: 32vw;
+    }
+
+}
